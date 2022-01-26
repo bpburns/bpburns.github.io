@@ -1,8 +1,6 @@
 About
 #####
 
-:category: about
-
 About Me
 ========
 
