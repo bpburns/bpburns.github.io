@@ -8,7 +8,7 @@ About Me
 
 My name is Brian Barefoot Burns. No, it's not a Native American name.
 No, "Barefoot" is not my nickname, and it does not belong in quotes between
-"Brian" and "Burns"
+"Brian" and "Burns."
 My unmarried name is Burns. My wife's maiden name is Barefoot. When we got
 married, she didn't want to completely give up her cool last name. We also
 decided that if we had children, we wanted every member
