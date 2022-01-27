@@ -135,8 +135,8 @@ Plex
 I run a home media server using Plex on a Synology NAS unit. The great thing
 about it is that everyone in the household can have his or her own profile for
 keeping track of what they've watched, playlists, etc., and we can restrict
-what the kids can see without any risk of them being exposed to harmful
-advertising.
+what the kids can see while preventing them from being exposed to harmful
+content and advertising.
 
 We use Plex to store and serve up our movies, TV shows, music, and audiobooks.
 We also use Plex in combination with an HDHomeRun DTV tuner to act as a DVR for
@@ -152,7 +152,7 @@ Price: $119.99
 Sizer
 *****
 
-Sizer from Brian Apps (no affiliation) lets you specify exact pixel count sizes
+Sizer from Brian Apps (no relation) lets you specify exact pixel count sizes
 for your Windows windows. I recommend the version 4.0 preview over the older
 32-bit distribution.
 
