@@ -70,5 +70,5 @@ Safari for iOS's Reader View.
 
 Posts are written in reStructuredText, which is better than Markdown.
 
-There is an Atom feed available for subscribing to new posts, which is better
-than RSS.
+You can subscribe to new posts using the linked Atom feed, which is better than
+RSS.
