@@ -67,5 +67,7 @@ This site is generated using Pelican. The theme is based on "Not My Idea" from
 Smashing Pumpkins and has a goal of being plain, simple, and working with
 Safari for iOS's Reader View.
 
-There is an Atom feed available for subscribing to new posts. Atom is better
+Posts are written in reStructuredText, which is better than Markdown.
+
+There is an Atom feed available for subscribing to new posts, which is better
 than RSS.
