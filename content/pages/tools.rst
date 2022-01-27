@@ -7,7 +7,7 @@ Overview
 
 This page lists tools, software and otherwise, that I find useful in my work
 and hobbies. Prices shown for software are current at the time of writing and
-taken from the respective distributors' websites. Some tools have discounted
+are taken from the respective distributors' websites. Some tools have discounted
 upgrade pricing and/or higher or lower pricing for different product versions
 and feature sets.
 
