@@ -31,3 +31,4 @@ DEFAULT_PAGINATION = 10
 #RELATIVE_URLS = True
 
 TYPOGRIFY = True
+THEME = 'themes/brian'
