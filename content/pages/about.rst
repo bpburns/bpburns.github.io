@@ -24,11 +24,12 @@ Personal Life
 *************
 
 I was born in Oregon City, OR and grew up in Vancouver, WA (no, not Vancouver,
-B.C.). After graduating from college, I moved to San Diego, CA. I met my future
-wife in college, and we got married on the campus of our alma mater. We later
-moved from San Diego to Phoenix, AZ and currently live in the Phoenix area.
+B.C.). After graduating from college and working for a year in the Portland, OR
+area, I moved to San Diego, CA.
 
-My wife and I have two children.
+I met my future wife in college, and we were married on the campus of our alma
+mater. We lived together in San Diego for two years before moving to Phoenix,
+AZ. We currently live in the Phoenix area with our two children.
 
 Education
 *********
@@ -55,7 +56,9 @@ Hillsboro, OR. The bulk of my work there was contract engineering at a large
 blue-chip semiconductor manufacturer in that area.
 
 In high school and during college, I worked for a large department store for a
-total of seven years before graduating college and pursuing my career path.
+total of seven years before graduating college and pursuing my career path. I
+would have enjoyed staying with the same company and working in their extensive
+robotics development endeavors, but that did not work out.
 
 About This Site
 ===============
@@ -63,3 +66,6 @@ About This Site
 This site is generated using Pelican. The theme is based on "Not My Idea" from
 Smashing Pumpkins and has a goal of being plain, simple, and working with
 Safari for iOS's Reader View.
+
+There is an Atom feed available for subscribing to new posts. Atom is better
+than RSS.
