@@ -59,7 +59,7 @@ blue-chip semiconductor manufacturer in that area.
 In high school and during college, I worked for a large department store for a
 total of seven years before graduating college and pursuing my career path. I
 would have enjoyed staying with the same company and working in their extensive
-robotics development endeavors, but that did not work out.
+robotics development endeavors, but that did not pan out.
 
 About This Site
 ===============
