@@ -3,8 +3,6 @@ layout: page
 title: Amish Baked Oatmeal
 ---
 
-## "Amish" Baked Oatmeal
-
 ### Ingredients
 - 1/3 cup unsalted butter, melted
 - 2 large eggs
