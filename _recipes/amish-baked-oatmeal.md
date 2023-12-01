@@ -36,5 +36,9 @@ cooktime: 60
 servings: 6
 ---
 
-Hello, world!
+A favorite of my kids' for many years, this recipe is foolproof and easily
+adaptable to what you have on hand. It is not sensitive to moisture or
+ingredient substitution. For example, you can substitute granulated sugar for
+brown sugar without an adverse effect. You can substitute an alternative milk
+for the default cow's milk, too.
 

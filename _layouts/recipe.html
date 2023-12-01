@@ -12,6 +12,8 @@ layout: default
     Prep time: {{ page.preptime }} minutes
     <br>
     Cook time: {{ page.cooktime }} minutes
+    <br>
+    Servings: {{ page.servings }}
 
     <h2>Equipment</h2>
     <ul>
@@ -33,6 +35,8 @@ layout: default
        <li>{{ step }}</li>
        {% endfor %}
    </ol>
+
+   Serves {{ page.servings }}.
   </div>
 
   <div class="date">
