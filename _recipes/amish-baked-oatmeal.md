@@ -2,7 +2,7 @@
 layout: recipe
 title: Amish Baked Oatmeal
 description: Tasty breakfast dish
-category: breakfast
+category: Breakfast
 equipment:
   - 1.5L / 6-cup baking dish
   - Measuring spoons
