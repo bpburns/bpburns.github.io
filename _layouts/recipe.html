@@ -7,18 +7,22 @@ layout: default
 
   <div class="entry">
     {{ content }}
-    Prep Time: {{ page.preptime }}
-    Cook Time: {{ recipe.cooktime }}
+    Prep Time: {{ page.preptime }} minutes
+    Cook Time: {{ page.cooktime }} minutes
 
     <h2>Ingredients</h2>
     <ul>
         {% for ingredient in page.ingredients %}
-	<li>{{ ingredient }}</li>
-	{% endfor %}
+    <li>{{ ingredient }}</li>
+    {% endfor %}
     </ul>
 
    <h2>Instructions</h2>
-    {{ page.instructions }}
+   <ol>
+       {% for step in page.instructions %}
+       <li>{{ step }}</li>
+       {% endfor %}
+   </ol>
   </div>
 
   <div class="date">
