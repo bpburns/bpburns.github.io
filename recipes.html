@@ -1,0 +1,16 @@
+---
+layout: default
+---
+
+<div class="recpies">
+  {% for recipe in site.recipes %}
+    <article class="recipe">
+
+      <h1><a href="{{ site.baseurl }}{{ recipe.url }}">{{ recipe.title }}</a></h1>
+
+      <div class="entry">
+        {{ post.excerpt }}
+      </div>
+    </article>
+  {% endfor %}
+</div>
