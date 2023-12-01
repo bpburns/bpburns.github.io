@@ -1,10 +1,8 @@
 ---
 layout: page
-title: Recipes
-permalink: /recipes/
+title: Amish Baked Oatmeal
+permalink: /recipes/amish-baked-oatmeal
 ---
-
-# Recipes
 
 ## "Amish" Baked Oatmeal
 
