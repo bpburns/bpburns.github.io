@@ -3,6 +3,11 @@ layout: recipe
 title: Amish Baked Oatmeal
 description: Tasty breakfast dish
 category: breakfast
+equipment:
+  - 1.5L / 6-cup baking dish
+  - Measuring spoons
+  - Whisk
+  - Non-stick spray
 ingredients:
   - 1/3 cup unsalted butter, melted
   - 2 large eggs

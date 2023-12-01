@@ -7,9 +7,16 @@ layout: default
 
   <div class="entry">
     {{ content }}
-    Prep Time: {{ page.preptime }} minutes
+    Prep time: {{ page.preptime }} minutes
     <br>
-    Cook Time: {{ page.cooktime }} minutes
+    Cook time: {{ page.cooktime }} minutes
+
+    <h2>Equipment</h2>
+    <ul>
+        {% for gadget in page.equipment %}
+        <li>{{ gadget }}</li>
+        {% endfor %}
+    </ul>
 
     <h2>Ingredients</h2>
     <ul>
