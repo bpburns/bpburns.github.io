@@ -6,16 +6,19 @@ layout: default
   <h1>{{ page.title }}</h1>
 
   <div class="entry">
-    {{ page.preptime }}
-    {{ recipe.cooktime }}
     {{ content }}
+    Prep Time: {{ page.preptime }}
+    Cook Time: {{ recipe.cooktime }}
+
+    <h2>Ingredients</h2>
+    <ul>
+        {{% for ingredient in page.ingredients %}}
+	<li>{{ ingredient }}</li>
+    </ul>
+
+   <h2>Instructions</h2>
+    {{ page.instructions }}
   </div>
-
-  <h2>Ingredients</h2>
-  {{ page.ingredients }}
-
-  <h2>Instructions</h2>
-  {{ page.instructions }}
 
   <div class="date">
     Written on {{ page.date | date: "%B %e, %Y" }}
