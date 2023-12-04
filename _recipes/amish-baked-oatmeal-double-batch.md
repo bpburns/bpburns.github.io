@@ -11,9 +11,10 @@ equipment:
 ingredients:
   - 2/3 cup unsalted butter, melted
   - 4 large eggs
-  - 1 1/2 cup brown sugar
+  - 1 1/2 cups brown sugar
+  - 1 tablespoon baking powder
   - 1 tablespoon vanilla
-  - 2 teaspoon cinnamon or nutmeg
+  - 2 teaspoons cinnamon or nutmeg
   - 1/2 teaspoon salt
   - 2 1/4 cups milk
   - 6 cups rolled oats, any variety

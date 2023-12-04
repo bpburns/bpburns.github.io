@@ -12,6 +12,7 @@ ingredients:
   - 1/3 cup unsalted butter, melted
   - 2 large eggs
   - 3/4 cup brown sugar
+  - 1/2 tablespoon baking powder
   - 1/2 tablespoon vanilla
   - 1 teaspoon cinnamon or nutmeg
   - 1/4 teaspoon salt
