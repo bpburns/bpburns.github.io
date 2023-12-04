@@ -5,7 +5,11 @@ permalink: /credits/
 ---
 
 ### Creating a recipe site with Jekyll
-<https://lukasmurdock.com/recipe-site-with-jekyll/>
+[Original](https://lukasmurdock.com/recipe-site-with-jekyll/)    
+[Internet Archive](https://web.archive.org/web/20230607111549/https://lukasmurdock.com/recipe-site-with-jekyll/)    
+[Archive.ph](https://archive.is/pb34M)
 
 ### Amish baked oatmeal recipe
-<https://www.food.com/recipe/amish-baked-oatmeal-117211>
+[Original](https://www.food.com/recipe/amish-baked-oatmeal-117211)    
+[Internet Archive](https://web.archive.org/web/20230531001923/https://www.food.com/recipe/amish-baked-oatmeal-117211)    
+[Archive.ph](https://archive.is/67T3w)
