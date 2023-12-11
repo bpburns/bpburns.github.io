@@ -1,6 +1,6 @@
 ---
 layout: recipe
-title: Amish Baked Oatmeal
+title: Amish Baked Oatmeal (Single Batch)
 description: Tasty breakfast dish
 category: Breakfast
 equipment:
