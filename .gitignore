@@ -8,3 +8,6 @@ Gemfile
 Gemfile.lock
 node_modules
 package.json
+.jekyll-cache
+.jekyll-metadata
+vendor
