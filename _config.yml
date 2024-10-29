@@ -24,8 +24,7 @@ title: Brian Barefoot Burns
 description: Software Engineer in Arizona
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+github_username:  bpburns
 
 # Build settings
 theme: minima
