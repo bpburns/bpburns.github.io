@@ -62,3 +62,6 @@ robotics development endeavors, but that did not pan out.
 This site is generated using Jekyll. The theme is based on Jekyll Now.
 You can subscribe to new posts using the linked Atom feed. Atom is better than
 RSS.
+
+## Credits
+Credit where credit is due: [Credits](/credits)
