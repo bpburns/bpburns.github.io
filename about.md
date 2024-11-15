@@ -18,7 +18,7 @@ Our marriage license was issued in Multnomah County, Oregon. One of the
 prescribed options for us from the county was to combine our unmarried last
 names into a new, two-word last name, which we chose. In hindsight, it might
 have caused less confusion for everyone if we had chosen the hyphenated option,
-but here we are. We now have two children, both named Barefoot Burns.
+but here we are. We now have three children, all named Barefoot Burns.
 
 ## Personal Life
 
