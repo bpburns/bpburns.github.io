@@ -57,3 +57,7 @@ collections:
     output: true
     permalink: /:collection/:name/
     layout: "recipe"
+
+header_pages:
+  - about.md
+  - recipes.md
