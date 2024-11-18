@@ -1,0 +1,46 @@
+---
+layout: default
+---
+
+<article class="recipe">
+  <h1>{{ page.title }}</h1>
+
+  <div class="entry">
+    Category: {{ page.category }}
+    {{ content }}
+    Prep time: {{ page.preptime }} minutes
+    <br>
+    Cook time: {{ page.cooktime }} minutes
+    <br>
+    Servings: {{ page.servings }}
+
+    <h2>Equipment</h2>
+    <ul>
+        {% for gadget in page.equipment %}
+        <li>{{ gadget }}</li>
+        {% endfor %}
+    </ul>
+
+    <h2>Ingredients</h2>
+    <ul>
+        {% for ingredient in page.ingredients %}
+    <li>{{ ingredient }}</li>
+    {% endfor %}
+    </ul>
+
+   <h2>Instructions</h2>
+   <ol>
+       {% for step in page.instructions %}
+       <li>{{ step }}</li>
+       {% endfor %}
+   </ol>
+
+   Serves {{ page.servings }}.
+  </div>
+
+  <div class="date">
+    Written on {{ page.date | date: "%B %e, %Y" }}
+  </div>
+
+  {% include disqus.html %}
+</article>
