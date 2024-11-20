@@ -32,6 +32,9 @@ footer-links:
   googleplus: # anything in your profile username that comes after plus.google.com/
 
 collections:
+  pages:
+    output: true
+    permalink: /:name/
   recipes:
     output: true
     permalink: /:collection/:name/
