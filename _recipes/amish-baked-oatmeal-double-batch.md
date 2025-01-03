@@ -27,7 +27,7 @@ instructions:
   - Add brown sugar, baking powder, vanilla, nutmeg or cinnamon, and salt. Mix well, leaving no lumps.
   - Whisk in melted butter and both measures of milk.
   - Stir in oats.
-  - Refirgerate overnight.
+  - Refrigerate overnight.
   - Bake uncovered at 350&nbsp;&deg;F for 45-60 minutes, until set in middle.
   - Serve hot, warm, or cold with milk poured over.
 preptime: 10
