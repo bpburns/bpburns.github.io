@@ -1,0 +1,930 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Brian's personal blog">
+      
+      
+      
+        <link rel="canonical" href="https://bpburns.github.io/blog/2022/09/22/apple-device-charging-speeds/">
+      
+      
+        <link rel="prev" href="../../01/new-material-for-mkdocs-blog/">
+      
+      
+        <link rel="next" href="../../../../2023/11/30/2-amish-baked-oatmeal/">
+      
+      
+      <link rel="icon" href="../../../../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.4">
+    
+    
+      
+        <title>Apple Device Charging Speeds - Brian Barefoot Burns</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../../../assets/stylesheets/main.8608ea7d.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../../../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#overview" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../../../../.." title="Brian Barefoot Burns" class="md-header__button md-logo" aria-label="Brian Barefoot Burns" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Brian Barefoot Burns
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Apple Device Charging Speeds
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+                
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" hidden>
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../../../.." title="Brian Barefoot Burns" class="md-nav__button md-logo" aria-label="Brian Barefoot Burns" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Brian Barefoot Burns
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../.." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Welcome to MkDocs
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Blog
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Blog
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      <a href="../../../../" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Blog
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_2" id="__nav_2_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Archive
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_2">
+            <span class="md-nav__icon md-icon"></span>
+            Archive
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../archive/2025/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    2025
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../archive/2024/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    2024
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../archive/2023/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    2023
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../archive/2022/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    2022
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+                
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#overview" class="md-nav__link">
+    <span class="md-ellipsis">
+      Overview
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#a-note-on-charger-voltage-and-current" class="md-nav__link">
+    <span class="md-ellipsis">
+      A Note on Charger Voltage and Current
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#devices" class="md-nav__link">
+    <span class="md-ellipsis">
+      Devices
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Devices">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ipad" class="md-nav__link">
+    <span class="md-ellipsis">
+      iPad
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="iPad">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ipad-air-5th-generation" class="md-nav__link">
+    <span class="md-ellipsis">
+      iPad Air 5th Generation
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="iPad Air 5th Generation">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ipad-air-with-magic-keybaord" class="md-nav__link">
+    <span class="md-ellipsis">
+      iPad Air with Magic Keybaord
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ipad-air-without-magic-keyboard" class="md-nav__link">
+    <span class="md-ellipsis">
+      iPad Air without Magic Keyboard
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#iphone" class="md-nav__link">
+    <span class="md-ellipsis">
+      iPhone
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="iPhone">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#iphone-xs" class="md-nav__link">
+    <span class="md-ellipsis">
+      iPhone XS
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="iPhone XS">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#iphone-xs-naked" class="md-nav__link">
+    <span class="md-ellipsis">
+      iPhone XS "Naked"
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#iphone-xs-with-smart-battery-case" class="md-nav__link">
+    <span class="md-ellipsis">
+      iPhone XS with Smart Battery Case
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#iphone-11-pro" class="md-nav__link">
+    <span class="md-ellipsis">
+      iPhone 11 Pro
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="iPhone 11 Pro">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#iphone-11-pro-naked" class="md-nav__link">
+    <span class="md-ellipsis">
+      iPhone 11 Pro "Naked"
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#iphone-11-pro-with-smart-battery-case" class="md-nav__link">
+    <span class="md-ellipsis">
+      iPhone 11 Pro with Smart Battery Case
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+  <div class="md-content md-content--post" data-md-component="content">
+    <div class="md-sidebar md-sidebar--post" data-md-component="sidebar" data-md-type="navigation">
+      <div class="md-sidebar__scrollwrap">
+        <div class="md-sidebar__inner md-post">
+          <nav class="md-nav md-nav--primary">
+            <div class="md-post__back">
+              <div class="md-nav__title md-nav__container">
+                <a href="../../../../" class="md-nav__link">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+                  <span class="md-ellipsis">
+                    Back to index
+                  </span>
+                </a>
+              </div>
+            </div>
+            
+            <ul class="md-post__meta md-nav__list">
+              <li class="md-nav__item md-nav__item--section">
+                <div class="md-post__title">
+                  <span class="md-ellipsis">
+                    Metadata
+                  </span>
+                </div>
+                <nav class="md-nav">
+                  <ul class="md-nav__list">
+                    <li class="md-nav__item">
+                      <div class="md-nav__link">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 19H5V8h14m-3-7v2H8V1H6v2H5c-1.11 0-2 .89-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2h-1V1m-1 11h-5v5h5z"/></svg>
+                        <time datetime="2022-09-22 00:00:00+00:00" class="md-ellipsis">September 22, 2022</time>
+                      </div>
+                    </li>
+                    
+                    
+                    
+                      
+                      <li class="md-nav__item">
+                        <div class="md-nav__link">
+                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 20a8 8 0 0 0 8-8 8 8 0 0 0-8-8 8 8 0 0 0-8 8 8 8 0 0 0 8 8m0-18a10 10 0 0 1 10 10 10 10 0 0 1-10 10C6.47 22 2 17.5 2 12A10 10 0 0 1 12 2m.5 5v5.25l4.5 2.67-.75 1.23L11 13V7z"/></svg>
+                          <span class="md-ellipsis">
+                            
+                              4 min read
+                            
+                          </span>
+                        </div>
+                      </li>
+                    
+                  </ul>
+                </nav>
+              </li>
+            </ul>
+            
+          </nav>
+          
+        </div>
+      </div>
+    </div>
+    <article class="md-content__inner md-typeset">
+      
+        
+  
+
+
+
+
+  <h1>Apple Device Charging Speeds</h1>
+
+<p>With the advent of USB-C and USB PD (Power Delivery), we are past the
+days when we were limited to 5&nbsp;V, 2.4&nbsp;A, 12&nbsp;W charging
+of our portable devices. USB PD allows a much wider range of charging
+voltages, currents, and overall higher wattages than before. This makes
+USB PD suitable for powering and charging especially power-hungry
+devices like laptops and tablets that support USB PD.</p>
+<h2 id="overview">Overview</h2>
+<p>This article provides a guide on achieving the highest charging speeds
+and fastest charging times for different Apple devices.</p>
+<p>Unforunately, the maximum input power specifications for devices can be
+difficult or impossible to find on Apple products and must be measured
+and confirmed. Additionally, the maximum achievable input power is
+often only obtained when the target devices SoC (State of Charge) is
+between 20% and 60%. Measuring the maximum input wattages thus requires
+draining the device battery to approximately 20% reported state of
+charge, allowing all components (charger, device, etc.) to stabilze at
+room temperature, and then connecting chargers and waiting for the
+maximum power to be measured before the device state of charge rises
+too high.</p>
+<h2 id="a-note-on-charger-voltage-and-current">A Note on Charger Voltage and Current</h2>
+<p>People frequently ask about compatibility between chargers and devices,
+especially with respect to stated currents and voltages. In the case of
+USB chargers, if the cable fits and all components (e.g., device,
+charger, cable) are high-quality and not defective, connecting them
+shoule be safe. You may not always get the fastest charging speeds,
+but you are unlikely to damage any of your devices. USB devices and
+chargers negotiate their operating voltages and currents.</p>
+<ul>
+<li>
+<p>Can I use a 2&nbsp;A charger to charge a device that states it needs
+  1&nbsp;A of current? <br />
+  Yes. The device will only draw 1&nbsp;A of current from the charger.</p>
+</li>
+<li>
+<p>Can I use a 1&nbsp;A charger to charge a device that states it needs
+  2&nbsp;A of input? <br />
+  Yes. The device may charge more slowly, but the configuration should
+  be safe. Some devices will warn you if they cannot operate because
+  the connected charger is not supplying enough current.</p>
+</li>
+</ul>
+<h2 id="devices">Devices</h2>
+<p>The table below shows the maximum approximate input power parameters I
+have measured on various devices. I use a capable 65&nbsp;W PPS charger with
+a maximum output voltage of 20&nbsp;V and compatible USB-C cables to generate
+the results. The "Max Wattage" column generalizes the results into
+common marketing wattage ratings. For example, even though I measured
+9V and 2.5A instantaneously for the first row, I report 20 Watts and
+not 22.5 Watts because 22.5&nbsp;W is not a typical marketing bin for USB PD
+chargers. The intended conclusion is that connecting a 20&nbsp;W USB PD
+charger to that configuration will result in the best charging
+performance for that configuration.</p>
+<style>
+.tablelines table, .tablelines td, .tablelines th {
+    border: 1px solid black;
+    padding-right: 10px;
+    padding-left: 10px;
+    }
+</style>
+
+<table>
+<thead>
+<tr>
+<th>Device</th>
+<th>Configuration</th>
+<th>Max Voltage</th>
+<th>Max Current</th>
+<th>Max Wattage</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>iPad Air</td>
+<td>Magic Keybaord</td>
+<td>9 V</td>
+<td>2.5 A</td>
+<td>20 W</td>
+</tr>
+<tr>
+<td>iPad Air</td>
+<td>USB-C port</td>
+<td>15 V</td>
+<td>2 A</td>
+<td>30 W</td>
+</tr>
+<tr>
+<td>iPhone XS</td>
+<td>Naked</td>
+<td>9 V</td>
+<td>2 A</td>
+<td>18 W</td>
+</tr>
+<tr>
+<td>iPhone XS</td>
+<td>Charging Case</td>
+<td>15 V</td>
+<td>2 A</td>
+<td>30 W</td>
+</tr>
+<tr>
+<td>iPhone 11 Pro</td>
+<td>Naked</td>
+<td>9 V</td>
+<td>2 A</td>
+<td>18 W</td>
+</tr>
+<tr>
+<td>iPhone 11 Pro</td>
+<td>Charging Case</td>
+<td>15 V</td>
+<td>2 A</td>
+<td>30 W</td>
+</tr>
+<tr>
+<td>{: .tablelines}</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="ipad">iPad</h3>
+<h4 id="ipad-air-5th-generation">iPad Air 5th Generation</h4>
+<p>Max Charging Voltage: 15&nbsp;V  <br />
+Max Charging Current: 2&nbsp;A   </p>
+<p>All other factors not considered, a 30&nbsp;W USB PD charger and compatible
+USB-C charging cable will give the best performance for a
+fifth-generation iPad Air.</p>
+<p>One interesting observation about charging the iPad Air 5th Gen. is
+that there is a very long (over 60 seconds) ramp-up time before the
+device achieves its maximum charging wattage. The device slowly
+requests higher voltages and draws increasing current from the
+connected charger until it tops out based on the individual
+configurations listed below. This is different from what I have
+generally observed in iPhones and various laptops, where the device
+quickly negotiates the highest voltage supported by both charger and
+device and then quickly ramps up its current draw to achieve its
+maximum charging wattage.</p>
+<p>If you're in a pinch and need a lot of power quickly, use a 30&nbsp;W USB PD
+charger and connect it directly to the iPad's USB-C port and not the
+Magic Keyboard's USB-C port (if you're using the Magic Keyboard).</p>
+<h5 id="ipad-air-with-magic-keybaord">iPad Air with Magic Keybaord</h5>
+<p>Max Charging Voltage: 9&nbsp;V <br />
+Max Charging Current: 2&nbsp;A   </p>
+<p>A fifth-generation iPad Air in Apple's Magic Keyboard case, charging
+through the Magic Keyboard's USB-C port, tops out at 9V and
+approximately 2.5A, for a generic charging speed of 20&nbsp;W. Therefore,
+selecting a 20&nbsp;W USB PD charger with a maximum voltage of 9V and 2A will
+generally give the best charging performance for this iPad Air
+configuration.</p>
+<p>If you want faster charging, use the iPad's built-in USB-C port and
+a 30&nbsp;W charger and USB-C cable.</p>
+<h5 id="ipad-air-without-magic-keyboard">iPad Air without Magic Keyboard</h5>
+<p>Max Charging Voltage: 15&nbsp;V <br />
+Max Charging Current: 2&nbsp;A</p>
+<p>Without the Magic Keyboard, or by connecting a USB PD charger directly
+to the fifth-gen. iPad Air's USB-C port, you can get up to 30&nbsp;W charging
+by using a USB PD charger with at least 15V max.</p>
+<h3 id="iphone">iPhone</h3>
+<h4 id="iphone-xs">iPhone XS</h4>
+<p>Max Charging Voltage:  15&nbsp;V  <br />
+Max Charging Current:  2&nbsp;A</p>
+<p>To get the fastest charge with this device, charge it with a 30W USB PD charger
+in the Smart Battery Case. I have found that I can get a full day's charge in
+about 30 minutes.</p>
+<h5 id="iphone-xs-naked">iPhone XS "Naked"</h5>
+<p>Max Charging Voltage:  9&nbsp;V  <br />
+Max Charging Current:  2&nbsp;A</p>
+<h5 id="iphone-xs-with-smart-battery-case">iPhone XS with Smart Battery Case</h5>
+<p>Max Charging Voltage:  15&nbsp;V  <br />
+Max Charging Current:  2&nbsp;A</p>
+<h4 id="iphone-11-pro">iPhone 11 Pro</h4>
+<p>Max Charging Voltage:  15&nbsp;V  <br />
+Max Charging Current:  2&nbsp;A</p>
+<p>To get the fastest charge with this device, charge it with a 30W USB PD charger
+in the Smart Battery Case. I have found that I can get a full day's charge in
+about 30 minutes.</p>
+<h5 id="iphone-11-pro-naked">iPhone 11 Pro "Naked"</h5>
+<p>Max Charging Voltage:  9&nbsp;V  <br />
+Max Charging Current:  2&nbsp;A</p>
+<h5 id="iphone-11-pro-with-smart-battery-case">iPhone 11 Pro with Smart Battery Case</h5>
+<p>Max Charging Voltage:  15&nbsp;V  <br />
+Max Charging Current:  2&nbsp;A</p>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+  
+
+
+
+      
+    </article>
+  </div>
+
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../../../../..", "features": [], "search": "../../../../../assets/javascripts/workers/search.f8cc74c7.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../../../../assets/javascripts/bundle.f1b6f286.min.js"></script>
+      
+    
+  </body>
+</html>
