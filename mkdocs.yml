@@ -1,4 +1,6 @@
 site_name: Brian Barefoot Burns
 site_url: https://bpburns.github.io/
+theme:
+  name: material
 
 remote_branch: main
