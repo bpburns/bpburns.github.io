@@ -1,8 +1,9 @@
 ---
-title: Removing Sensitive Data from Photos with exiftool
 date:
   created: 2023-12-11
 ---
+
+# Removing Sensitive Data from Photos with exiftool
 
 If you post photographs, pictures, or images in general on the Internet,
 you should remove sensitive and identifying information from the metadata

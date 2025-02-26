@@ -1,8 +1,9 @@
 ---
-title: iOS Inactivity Reboot Feature
 date:
   created: 2024-12-02
 ---
+
+# iOS Inactivity Reboot Feature
 
 From [Bruce Schneier](https://www.schneier.com/blog/archives/2024/12/details-about-the-ios-inactivity-reboot-feature.html) 
 

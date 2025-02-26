@@ -1,8 +1,9 @@
 ---
-title: Different Safari Favorites on iPhone and Mac
 date:
   created: 2024-05-14
 ---
+
+# Different Safari Favorites on iPhone and Mac
 
 If you use Safari on both a Mac and an iPhone, it is convenient to have
 separate "Favorites" bookmark folders on each device.

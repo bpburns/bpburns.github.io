@@ -1,8 +1,9 @@
 ---
-title: Apple Device Charging Speeds
 date:
   created: 2022-09-22
 ---
+
+# Apple Device Charging Speeds
 
 With the advent of USB-C and USB PD (Power Delivery), we are past the
 days when we were limited to 5&nbsp;V, 2.4&nbsp;A, 12&nbsp;W charging
