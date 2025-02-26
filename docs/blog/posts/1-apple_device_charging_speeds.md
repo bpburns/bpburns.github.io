@@ -62,14 +62,6 @@ chargers. The intended conclusion is that connecting a 20&nbsp;W USB PD
 charger to that configuration will result in the best charging
 performance for that configuration.
 
-<style>
-.tablelines table, .tablelines td, .tablelines th {
-    border: 1px solid black;
-    padding-right: 10px;
-    padding-left: 10px;
-    }
-</style>
-
 | Device        | Configuration  | Max Voltage | Max Current | Max Wattage |
 | ------------- | -------------- | ----------- | ----------- | ----------- |
 | iPad Air      | Magic Keybaord | 9 V         | 2.5 A       | 20 W        |
@@ -78,7 +70,6 @@ performance for that configuration.
 | iPhone XS     | Charging Case  | 15 V        | 2 A         | 30 W        |
 | iPhone 11 Pro | Naked          | 9 V         | 2 A         | 18 W        |
 | iPhone 11 Pro | Charging Case  | 15 V        | 2 A         | 30 W        |
-{: .tablelines}
 
 ### iPad
 
