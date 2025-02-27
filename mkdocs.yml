@@ -9,3 +9,12 @@ remote_branch: main
 plugins:
   - search
   - blog
+  - rss:
+      match_path: blog/posts/.*
+      date_from_meta:
+        as_creation: created
+        as_update: updated
+        default_timezone: America/Phoenix
+      categories:
+        - categories
+        - tags
