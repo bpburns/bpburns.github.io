@@ -13,8 +13,8 @@ plugins:
       match_path: blog/posts/.*
       abstract_chars_count: -1
       date_from_meta:
-        as_creation: created
-        as_update: updated
+        as_creation: date.created
+        as_update: date.updated
         default_timezone: America/Phoenix
       categories:
         - categories
