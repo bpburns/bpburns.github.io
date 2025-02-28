@@ -13,6 +13,26 @@ theme:
   font:
     text: Atkinson Hyperlegible Next
     code: Atkinson Hyperlegible Mono
+  palette:
+    # Toggle for auto mode
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to Light Mode
+    
+    # Toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      schema: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to Dark Mode
+    
+    # Toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to Auto Light/Dark
 
 remote_branch: main
 
