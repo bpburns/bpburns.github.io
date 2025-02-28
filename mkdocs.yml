@@ -1,3 +1,4 @@
+# yaml-language-server: $schema=https://squidfunk.github.io/mkdocs-material/schema.json
 site_name: Brian Barefoot Burns
 site_description: Brian's personal blog
 site_url: https://bpburns.github.io/
@@ -13,8 +14,9 @@ theme:
 remote_branch: main
 
 plugins:
-  - search
   - blog
+  - glightbox
+  - privacy
   - rss:
       match_path: blog/posts/.*
       abstract_chars_count: -1
@@ -25,3 +27,23 @@ plugins:
       categories:
         - categories
         - tags
+  - search
+
+markdown_extensions:
+  - attr_list
+  - footnotes
+  - md_in_html
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - tables
