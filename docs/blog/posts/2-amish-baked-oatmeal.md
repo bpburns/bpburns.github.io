@@ -7,5 +7,5 @@ date:
 
 A favorite of my kids' for many years, this recipe is foolproof.
 
-[Single Batch](/recipes/amish-baked-oatmeal)    
-[Double Batch](/recipes/amish-baked-oatmeal-double-batch)
+[Single Batch](../../recipes/amish-baked-oatmeal.md)    
+[Double Batch](../../recipes/amish-baked-oatmeal-double-batch.md)

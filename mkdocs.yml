@@ -3,6 +3,12 @@ site_description: Brian's personal blog
 site_url: https://bpburns.github.io/
 theme:
   name: material
+  features:
+#    - content.action.edit
+#    - content.action.view
+    - content.code.annotate
+    - content.code.copy
+    - content.tabs.link
 
 remote_branch: main
 
