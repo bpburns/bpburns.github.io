@@ -34,6 +34,11 @@ theme:
         icon: material/brightness-4
         name: Switch to Auto Light/Dark
 
+# Branch to use for deploying GitHub Pages
+# Since this is a user site, GitHub will automatically build and deploy from
+# the `main` branch instead of the `gh-pages` branch. `gh-pages` is the default
+# if this is not set explicitly as it is here. The actual documentation source
+# lives in the `src` branch of this repository.
 remote_branch: main
 
 plugins:
