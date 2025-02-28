@@ -10,13 +10,11 @@
       
       
       
-        <link rel="canonical" href="https://bpburns.github.io/blog/2025/01/09/yours-truly-on-daring-fireball/">
+        <link rel="canonical" href="https://bpburns.github.io/blog/2025/02/28/privacy-plugin-speeds-up-material-for-mkdocs/">
       
       
-        <link rel="prev" href="../../../../2024/12/10/iphone-youtube-videos-from-2009-2012/">
+        <link rel="prev" href="../../../01/09/yours-truly-on-daring-fireball/">
       
-      
-        <link rel="next" href="../../../02/28/privacy-plugin-speeds-up-material-for-mkdocs/">
       
       
         <link rel="alternate" type="application/rss+xml" title="RSS feed" href="../../../../../feed_rss_created.xml">
@@ -27,7 +25,7 @@
     
     
       
-        <title>Yours Truly on Daring Fireball - Brian Barefoot Burns</title>
+        <title>Privacy Plugin Speeds up Material for MkDocs - Brian Barefoot Burns</title>
       
     
     
@@ -88,7 +86,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#yours-truly-on-daring-fireball" class="md-skip">
+        <a href="#privacy-plugin-speeds-up-material-for-mkdocs" class="md-skip">
           Skip to content
         </a>
       
@@ -124,7 +122,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Yours Truly on Daring Fireball
+              Privacy Plugin Speeds up Material for MkDocs
             
           </span>
         </div>
@@ -624,7 +622,7 @@
                     <li class="md-nav__item">
                       <div class="md-nav__link">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 19H5V8h14m-3-7v2H8V1H6v2H5c-1.11 0-2 .89-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2h-1V1m-1 11h-5v5h5z"/></svg>
-                        <time datetime="2025-01-09 00:00:00+00:00" class="md-ellipsis">January 9, 2025</time>
+                        <time datetime="2025-02-28 00:00:00+00:00" class="md-ellipsis">February 28, 2025</time>
                       </div>
                     </li>
                     
@@ -660,9 +658,23 @@
 
 
 
-<h1 id="yours-truly-on-daring-fireball">Yours Truly on Daring Fireball</h1>
-<p>A very late update, but I am somewhat proud to have made it to the DF
-front page back in April 2024. <a href="https://daringfireball.net/linked/2024/04/25/more-on-keycap-shine">Link</a></p>
+<h1 id="privacy-plugin-speeds-up-material-for-mkdocs">Privacy Plugin Speeds up Material for MkDocs</h1>
+<p>While migrating this site from Jekyll to Material for MkDocs, I noticed that
+the MkDocs-based site did not feel as snappy as the old Jekyll site. I guessed
+that this might be because of the more sophisticated JavaScript features MkDocs
+enables.</p>
+<p>In the course of other hacking on the new site, I installed the Material for
+MkDocs <a href="https://squidfunk.github.io/mkdocs-material/plugins/privacy/">built-in privacy plugin</a>.
+After deploying the site with the <a href="https://squidfunk.github.io/mkdocs-material/plugins/privacy/">privacy plugin</a>
+installed, I noticed that it felt just as snappy as the old Jekyll site,
+especially on my phone. This is likely due to the site shipping all the
+assets as a bundle and the browser not having to go to multiple sources to
+fetch and render each page.</p>
+<p>Enabling the <a href="https://squidfunk.github.io/mkdocs-material/plugins/privacy/">privacy plugin</a>
+is as simple as adding the following for your <code>mkdocs.yml</code> file:</p>
+<div class="highlight"><pre><span></span><code><span class="nt">plugins</span><span class="p">:</span>
+<span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">privacy</span>
+</code></pre></div>
 
 
 
