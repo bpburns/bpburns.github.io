@@ -1,7 +1,6 @@
 ---
 date:
   created: 2025-02-28
-draft: true
 ---
 
 # Privacy Plugin Speeds up Material for MkDocs
