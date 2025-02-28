@@ -10,6 +10,9 @@ theme:
     - content.code.annotate
     - content.code.copy
     - content.tabs.link
+  font:
+    text: Atkinson Hyperlegible Next
+    code: Atkinson Hyperlegible Mono
 
 remote_branch: main
 
