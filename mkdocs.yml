@@ -23,6 +23,7 @@ theme:
     # Toggle for light mode
     - media: "(prefers-color-scheme: light)"
       schema: default
+      primary: black
       toggle:
         icon: material/brightness-7
         name: Switch to Dark Mode
