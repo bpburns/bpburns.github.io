@@ -1,4 +1,4 @@
-.PHONY: help serve deploy inspect-rss
+.PHONY: help serve deploy inspect-rss build
 
 help: ## Makefile help
 	@awk 'BEGIN {FS = ":.*?## "} /^[a-zA-Z_-]+:.*?## / {printf "\033[36m%-30s\033[0m %s\n", $$1, $$2}' $(MAKEFILE_LIST)
@@ -11,3 +11,6 @@ deploy: ## Deploy the site to GitHub
 
 inspect-rss: ## Get a copy of the live RSS XML
 	curl https://bpburns.github.io/feed_rss_created.xml | xmllint --format - | less
+
+build: ## Build the site locally.
+	python -m mkdocs build
