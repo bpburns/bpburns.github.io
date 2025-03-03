@@ -3,7 +3,7 @@ date:
   created: 2025-03-02
 ---
 
-# vscode-yaml 1.16.0 broken
+# vscode-yaml 1.16.0 is broken
 
 &lt;PSA>
 
