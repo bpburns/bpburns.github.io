@@ -17,7 +17,7 @@ did the whole Computer Dance, but to no avail.
 Eventually I found this [GitHub issue](https://github.com/redhat-developer/vscode-yaml/issues/1100).
 There's simply a bug with a fix forthcoming. 
 
-In the meantime, downgrading to the next-most-recent version worked for me.
+In the meantime, downgrading to the next most recent version worked for me.
 
 1. Open VS Code.
 2. Go to Extensions &#8594; YAML &#8594; Uninstall&#8595; &#8594; Install Specific Version...
