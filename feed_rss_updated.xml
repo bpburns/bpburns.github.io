@@ -13,8 +13,8 @@
     <language>en</language>
 
     
-    <pubDate>Mon, 03 Mar 2025 06:52:55 -0000</pubDate>
-    <lastBuildDate>Mon, 03 Mar 2025 06:52:55 -0000</lastBuildDate>
+    <pubDate>Mon, 03 Mar 2025 16:23:25 -0000</pubDate>
+    <lastBuildDate>Mon, 03 Mar 2025 16:23:25 -0000</lastBuildDate>
     <ttl>1440</ttl>
 
     
@@ -30,6 +30,52 @@
     
 
     
+    
+    <item>
+      <title>MkDocs RSS Plugin Needs Pretty Printing</title>
+      
+      
+      
+      
+        
+      
+      <description>&lt;h1 id=&#34;mkdocs-rss-plugin-needs-pretty-printing&#34;&gt;MkDocs RSS Plugin Needs Pretty Printing&lt;/h1&gt;
+&lt;p&gt;When using the MkDocs RSS plugin in your site like this&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class=&#34;nt&#34;&gt;plugins&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;
+&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;&lt;span class=&#34;p p-Indicator&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;rss&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;
+&lt;span class=&#34;w&#34;&gt;      &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;match_path&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l l-Scalar l-Scalar-Plain&#34;&gt;blog/posts/.*&lt;/span&gt;
+&lt;span class=&#34;w&#34;&gt;      &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;date_from_meta&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;
+&lt;span class=&#34;w&#34;&gt;        &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;as_creation&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l l-Scalar l-Scalar-Plain&#34;&gt;date.created&lt;/span&gt;
+&lt;span class=&#34;w&#34;&gt;        &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;as_update&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l l-Scalar l-Scalar-Plain&#34;&gt;date.updated&lt;/span&gt;
+&lt;span class=&#34;w&#34;&gt;      &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;categories&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;
+&lt;span class=&#34;w&#34;&gt;        &lt;/span&gt;&lt;span class=&#34;p p-Indicator&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l l-Scalar l-Scalar-Plain&#34;&gt;categories&lt;/span&gt;
+&lt;span class=&#34;w&#34;&gt;        &lt;/span&gt;&lt;span class=&#34;p p-Indicator&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l l-Scalar l-Scalar-Plain&#34;&gt;tags&lt;/span&gt;
+&lt;span class=&#34;w&#34;&gt;      &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;pretty_print&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l l-Scalar l-Scalar-Plain&#34;&gt;true&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;the &lt;code&gt;pretty_print&lt;/code&gt; switch solves the problem of the generated RSS feeds
+incorrectly rendering line breaks and links from Markdown.&lt;/p&gt;
+&lt;p&gt;See this example with &lt;code&gt;pretty_print: false&lt;/code&gt; (false is the default if you do not
+explicitly set the flag to true).&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;In the course of setting up a development environment for this blog, I
+followedthe Material for MkDocs guidefor configuring YAML validation in
+VS Code, but nothing happened.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Notice how the two words, &#34;followed&#34; and &#34;the&#34; are lumped together in the RSS
+output.&lt;/p&gt;
+&lt;p&gt;With &lt;code&gt;pretty_print: true&lt;/code&gt;, the markdown is rendered correctly:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;In the course of setting up a development environment for this blog, I
+followed the Material for MkDocs guide for configuring YAML validation in
+VS Code, but nothing happened.&lt;/p&gt;
+&lt;/blockquote&gt;</description>
+      <link>https://bpburns.github.io/blog/2025/03/03/mkdocs-rss-plugin-needs-pretty-printing/</link>
+      <pubDate>Mon, 03 Mar 2025 09:23:12 -0700</pubDate>
+      <source url="https://bpburns.github.io/feed_rss_updated.xml">Brian Barefoot Burns</source>
+      
+      <guid isPermaLink="true">https://bpburns.github.io/blog/2025/03/03/mkdocs-rss-plugin-needs-pretty-printing/</guid>
+      
+    </item>
     
     <item>
       <title>vscode-yaml 1.16.0 is broken</title>

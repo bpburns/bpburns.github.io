@@ -9,6 +9,16 @@
     "language": "en",
     "items": [
         {
+            "id": "https://bpburns.github.io/blog/2025/03/03/mkdocs-rss-plugin-needs-pretty-printing/",
+            "url": "https://bpburns.github.io/blog/2025/03/03/mkdocs-rss-plugin-needs-pretty-printing/",
+            "title": "MkDocs RSS Plugin Needs Pretty Printing",
+            "content_html": "<h1 id=\"mkdocs-rss-plugin-needs-pretty-printing\">MkDocs RSS Plugin Needs Pretty Printing</h1>\n<p>When using the MkDocs RSS plugin in your site like this</p>\n<div class=\"highlight\"><pre><span></span><code><span class=\"nt\">plugins</span><span class=\"p\">:</span>\n<span class=\"w\">  </span><span class=\"p p-Indicator\">-</span><span class=\"w\"> </span><span class=\"nt\">rss</span><span class=\"p\">:</span>\n<span class=\"w\">      </span><span class=\"nt\">match_path</span><span class=\"p\">:</span><span class=\"w\"> </span><span class=\"l l-Scalar l-Scalar-Plain\">blog/posts/.*</span>\n<span class=\"w\">      </span><span class=\"nt\">date_from_meta</span><span class=\"p\">:</span>\n<span class=\"w\">        </span><span class=\"nt\">as_creation</span><span class=\"p\">:</span><span class=\"w\"> </span><span class=\"l l-Scalar l-Scalar-Plain\">date.created</span>\n<span class=\"w\">        </span><span class=\"nt\">as_update</span><span class=\"p\">:</span><span class=\"w\"> </span><span class=\"l l-Scalar l-Scalar-Plain\">date.updated</span>\n<span class=\"w\">      </span><span class=\"nt\">categories</span><span class=\"p\">:</span>\n<span class=\"w\">        </span><span class=\"p p-Indicator\">-</span><span class=\"w\"> </span><span class=\"l l-Scalar l-Scalar-Plain\">categories</span>\n<span class=\"w\">        </span><span class=\"p p-Indicator\">-</span><span class=\"w\"> </span><span class=\"l l-Scalar l-Scalar-Plain\">tags</span>\n<span class=\"w\">      </span><span class=\"nt\">pretty_print</span><span class=\"p\">:</span><span class=\"w\"> </span><span class=\"l l-Scalar l-Scalar-Plain\">true</span>\n</code></pre></div>\n<p>the <code>pretty_print</code> switch solves the problem of the generated RSS feeds\nincorrectly rendering line breaks and links from Markdown.</p>\n<p>See this example with <code>pretty_print: false</code> (false is the default if you do not\nexplicitly set the flag to true).</p>\n<blockquote>\n<p>In the course of setting up a development environment for this blog, I\nfollowedthe Material for MkDocs guidefor configuring YAML validation in\nVS Code, but nothing happened.</p>\n</blockquote>\n<p>Notice how the two words, \"followed\" and \"the\" are lumped together in the RSS\noutput.</p>\n<p>With <code>pretty_print: true</code>, the markdown is rendered correctly:</p>\n<blockquote>\n<p>In the course of setting up a development environment for this blog, I\nfollowed the Material for MkDocs guide for configuring YAML validation in\nVS Code, but nothing happened.</p>\n</blockquote>",
+            "image": null,
+            "date_published": "2025-03-03T00:00:00+00:00",
+            "authors": [],
+            "tags": []
+        },
+        {
             "id": "https://bpburns.github.io/blog/2025/03/02/vscode-yaml-1160-is-broken/",
             "url": "https://bpburns.github.io/blog/2025/03/02/vscode-yaml-1160-is-broken/",
             "title": "vscode-yaml 1.16.0 is broken",
