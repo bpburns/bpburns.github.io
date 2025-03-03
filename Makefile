@@ -1,4 +1,4 @@
-.PHONY: help serve deploy inspect-rss build
+.PHONY: help clean serve deploy inspect-rss build
 
 help: ## Makefile help
 	@awk 'BEGIN {FS = ":.*?## "} /^[a-zA-Z_-]+:.*?## / {printf "\033[36m%-30s\033[0m %s\n", $$1, $$2}' $(MAKEFILE_LIST)
@@ -14,3 +14,6 @@ inspect-rss: ## Get a copy of the live RSS XML
 
 build: ## Build the site locally.
 	python -m mkdocs build
+
+clean: ## Remove all build aritfacts and caches.
+	rm -rf .cache/ site/
