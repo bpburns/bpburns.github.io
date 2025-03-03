@@ -2,6 +2,8 @@
 site_name: Brian Barefoot Burns
 site_description: Brian's personal blog
 site_url: https://bpburns.github.io/
+extra:
+  generator: false
 theme:
   name: material
   features:
