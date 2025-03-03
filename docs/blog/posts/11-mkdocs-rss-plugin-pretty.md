@@ -38,3 +38,8 @@ With `pretty_print: true`, the markdown is rendered correctly:
 > In the course of setting up a development environment for this blog, I
 > followed the Material for MkDocs guide for configuring YAML validation in
 > VS Code, but nothing happened.
+
+Related GitHub Issues:
+
+- [mkdocs-rss-plugin/issues/186](https://github.com/Guts/mkdocs-rss-plugin/issues/186)
+- [mkdocs-rss-plugin/issues/263](https://github.com/Guts/mkdocs-rss-plugin/issues/263)
