@@ -10,13 +10,13 @@
       
       
       
-        <link rel="canonical" href="https://bpburns.github.io/blog/archive/2025/">
+        <link rel="canonical" href="https://bpburns.github.io/blog/page/2/">
       
       
-        <link rel="prev" href="../../">
+        <link rel="prev" href="../../..">
       
       
-        <link rel="next" href="../2024/">
+        <link rel="next" href="../../archive/2025/">
       
       
         <link rel="alternate" type="application/rss+xml" title="RSS feed" href="../../../feed_rss_created.xml">
@@ -27,7 +27,7 @@
     
     
       
-        <title>2025 - Brian Barefoot Burns</title>
+        <title>Blog - Brian Barefoot Burns</title>
       
     
     
@@ -88,7 +88,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#2025" class="md-skip">
+        <a href="#blog" class="md-skip">
           Skip to content
         </a>
       
@@ -124,7 +124,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              2025
+              Blog
             
           </span>
         </div>
@@ -311,10 +311,19 @@
   
   
     
+      
+    
   
   
     <li class="md-nav__item">
-      <a href="../../" class="md-nav__link">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+      <a href="../../" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
@@ -324,6 +333,7 @@
   
 
       </a>
+      
     </li>
   
 
@@ -333,19 +343,17 @@
                 
   
   
-    
   
   
-  
     
     
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2" >
         
           
           <label class="md-nav__link" for="__nav_2_2" id="__nav_2_2_label" tabindex="0">
@@ -360,7 +368,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_2_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_2_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_2_2">
             <span class="md-nav__icon md-icon"></span>
             Archive
@@ -371,23 +379,12 @@
                 
   
   
-    
-  
   
     
-      
-    
   
   
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../../archive/2025/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -397,7 +394,6 @@
   
 
       </a>
-      
     </li>
   
 
@@ -412,7 +408,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../2024/" class="md-nav__link">
+      <a href="../../archive/2024/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -436,7 +432,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../2023/" class="md-nav__link">
+      <a href="../../archive/2023/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -460,7 +456,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../2022/" class="md-nav__link">
+      <a href="../../archive/2022/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -607,7 +603,7 @@
   <div class="md-content" data-md-component="content">
     <div class="md-content__inner">
       <header class="md-typeset">
-        <h1 id="2025">2025</h1>
+        <h1 id="blog">Blog</h1>
       </header>
       
         <article class="md-post md-post--excerpt">
@@ -616,7 +612,7 @@
     <div class="md-post__meta md-meta">
       <ul class="md-meta__list">
         <li class="md-meta__item">
-          <time datetime="2025-03-02 00:00:00+00:00">March 2, 2025</time></li>
+          <time datetime="2022-09-01 00:00:00+00:00">September 1, 2022</time></li>
         
         
           
@@ -631,93 +627,9 @@
     </div>
   </header>
   <div class="md-post__content md-typeset">
-    <h2 id="vscode-yaml-1160-broken"><a class="toclink" href="../../2025/03/02/vscode-yaml-1160-broken/">vscode-yaml 1.16.0 broken</a></h2>
-<p>&lt;PSA&gt;</p>
-<p>In the course of setting up a development environment for this blog, I followed
-the <a href="https://squidfunk.github.io/mkdocs-material/creating-your-site/#minimal-configuration">Material for MkDocs guide</a>
-for configuring YAML validation in  VS Code, but nothing happened.</p>
-<p>There was no validation or code completion. I reloaded, reinstalled, restarted,
-did the whole Computer Dance, but to no avail.</p>
-<p>Eventually I found this <a href="https://github.com/redhat-developer/vscode-yaml/issues/1100">GitHub issue</a>.
-There's simply a bug with a fix forthcoming. </p>
-<p>In the meantime, downgrading to the next-most-recent version worked for me.</p>
-<ol>
-<li>Open VS Code.</li>
-<li>Go to Extensions &#8594; YAML &#8594; Uninstall&#8595; &#8594; Install Specific Version...</li>
-<li>Pick 1.15.0.</li>
-</ol>
-<p>Everything works.</p>
-<p>&lt;/PSA&gt;</p>
-    
-  </div>
-</article>
-      
-        <article class="md-post md-post--excerpt">
-  <header class="md-post__header">
-    
-    <div class="md-post__meta md-meta">
-      <ul class="md-meta__list">
-        <li class="md-meta__item">
-          <time datetime="2025-02-28 00:00:00+00:00">February 28, 2025</time></li>
-        
-        
-          
-          <li class="md-meta__item">
-            
-              1 min read
-            
-          </li>
-        
-      </ul>
-      
-    </div>
-  </header>
-  <div class="md-post__content md-typeset">
-    <h2 id="privacy-plugin-speeds-up-material-for-mkdocs"><a class="toclink" href="../../2025/02/28/privacy-plugin-speeds-up-material-for-mkdocs/">Privacy Plugin Speeds up Material for MkDocs</a></h2>
-<p>While migrating this site from Jekyll to Material for MkDocs, I noticed that
-the MkDocs-based site did not feel as snappy as the old Jekyll site. I guessed
-that this might be because of the more sophisticated JavaScript features MkDocs
-enables.</p>
-<p>In the course of other hacking on the new site, I installed the Material for
-MkDocs <a href="https://squidfunk.github.io/mkdocs-material/plugins/privacy/">built-in privacy plugin</a>.
-After deploying the site with the <a href="https://squidfunk.github.io/mkdocs-material/plugins/privacy/">privacy plugin</a>
-installed, I noticed that it felt just as snappy as the old Jekyll site,
-especially on my phone. This is likely due to the site shipping all the
-assets as a bundle and the browser not having to go to multiple sources to
-fetch and render each page.</p>
-<p>Enabling the <a href="https://squidfunk.github.io/mkdocs-material/plugins/privacy/">privacy plugin</a>
-is as simple as adding the following for your <code>mkdocs.yml</code> file:</p>
-<div class="highlight"><pre><span></span><code><span class="nt">plugins</span><span class="p">:</span>
-<span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">privacy</span>
-</code></pre></div>
-    
-  </div>
-</article>
-      
-        <article class="md-post md-post--excerpt">
-  <header class="md-post__header">
-    
-    <div class="md-post__meta md-meta">
-      <ul class="md-meta__list">
-        <li class="md-meta__item">
-          <time datetime="2025-01-09 00:00:00+00:00">January 9, 2025</time></li>
-        
-        
-          
-          <li class="md-meta__item">
-            
-              1 min read
-            
-          </li>
-        
-      </ul>
-      
-    </div>
-  </header>
-  <div class="md-post__content md-typeset">
-    <h2 id="yours-truly-on-daring-fireball"><a class="toclink" href="../../2025/01/09/yours-truly-on-daring-fireball/">Yours Truly on Daring Fireball</a></h2>
-<p>A very late update, but I am somewhat proud to have made it to the DF
-front page back in April 2024. <a href="https://daringfireball.net/linked/2024/04/25/more-on-keycap-shine">Link</a></p>
+    <h2 id="new-material-for-mkdocs-blog"><a class="toclink" href="../../2022/09/01/new-material-for-mkdocs-blog/">New Material for MkDocs blog</a></h2>
+<p>I spend more time fiddling with static site generators than I do actually
+writing.</p>
     
   </div>
 </article>
@@ -729,7 +641,7 @@ front page back in April 2024. <a href="https://daringfireball.net/linked/2024/0
 
 
 <nav class="md-pagination">
-  
+  <a class="md-pagination__link" href="../../">1</a> <span class="md-pagination__current">2</span>
 </nav>
         
       

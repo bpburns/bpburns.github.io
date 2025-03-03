@@ -614,6 +614,48 @@
     <div class="md-post__meta md-meta">
       <ul class="md-meta__list">
         <li class="md-meta__item">
+          <time datetime="2025-03-02 00:00:00+00:00">March 2, 2025</time></li>
+        
+        
+          
+          <li class="md-meta__item">
+            
+              1 min read
+            
+          </li>
+        
+      </ul>
+      
+    </div>
+  </header>
+  <div class="md-post__content md-typeset">
+    <h2 id="vscode-yaml-1160-broken"><a class="toclink" href="2025/03/02/vscode-yaml-1160-broken/">vscode-yaml 1.16.0 broken</a></h2>
+<p>&lt;PSA&gt;</p>
+<p>In the course of setting up a development environment for this blog, I followed
+the <a href="https://squidfunk.github.io/mkdocs-material/creating-your-site/#minimal-configuration">Material for MkDocs guide</a>
+for configuring YAML validation in  VS Code, but nothing happened.</p>
+<p>There was no validation or code completion. I reloaded, reinstalled, restarted,
+did the whole Computer Dance, but to no avail.</p>
+<p>Eventually I found this <a href="https://github.com/redhat-developer/vscode-yaml/issues/1100">GitHub issue</a>.
+There's simply a bug with a fix forthcoming. </p>
+<p>In the meantime, downgrading to the next-most-recent version worked for me.</p>
+<ol>
+<li>Open VS Code.</li>
+<li>Go to Extensions &#8594; YAML &#8594; Uninstall&#8595; &#8594; Install Specific Version...</li>
+<li>Pick 1.15.0.</li>
+</ol>
+<p>Everything works.</p>
+<p>&lt;/PSA&gt;</p>
+    
+  </div>
+</article>
+      
+        <article class="md-post md-post--excerpt">
+  <header class="md-post__header">
+    
+    <div class="md-post__meta md-meta">
+      <ul class="md-meta__list">
+        <li class="md-meta__item">
           <time datetime="2025-02-28 00:00:00+00:00">February 28, 2025</time></li>
         
         
@@ -1249,34 +1291,6 @@ Max Charging Current:  2&nbsp;A</p>
   </div>
 </article>
       
-        <article class="md-post md-post--excerpt">
-  <header class="md-post__header">
-    
-    <div class="md-post__meta md-meta">
-      <ul class="md-meta__list">
-        <li class="md-meta__item">
-          <time datetime="2022-09-01 00:00:00+00:00">September 1, 2022</time></li>
-        
-        
-          
-          <li class="md-meta__item">
-            
-              1 min read
-            
-          </li>
-        
-      </ul>
-      
-    </div>
-  </header>
-  <div class="md-post__content md-typeset">
-    <h2 id="new-material-for-mkdocs-blog"><a class="toclink" href="2022/09/01/new-material-for-mkdocs-blog/">New Material for MkDocs blog</a></h2>
-<p>I spend more time fiddling with static site generators than I do actually
-writing.</p>
-    
-  </div>
-</article>
-      
       
         
           
@@ -1284,7 +1298,7 @@ writing.</p>
 
 
 <nav class="md-pagination">
-  
+  <span class="md-pagination__current">1</span> <a class="md-pagination__link" href="page/2/">2</a>
 </nav>
         
       
