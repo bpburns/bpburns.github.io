@@ -1,7 +1,5 @@
 ---
-date:
-  created: 2025-03-08
-  updated: 2025-03-08
+date: 2025-03-05  
 preptime: 10
 cooktime: 60
 servings: 12
@@ -32,7 +30,7 @@ for the default cow's milk, too.
   - 2 1/4 cups milk
   - 6 cups rolled oats, any variety
 
-## Instructions:
+## Instructions
   - Melt butter.
   - Grease baking dish.
   - Beat eggs.

@@ -20,7 +20,8 @@ for the default cow's milk, too.
   - Measuring spoons
   - Whisk
   - Non-stick spray
-## Ingredients:
+
+## Ingredients
   - 1/3 cup unsalted butter, melted
   - 2 large eggs
   - 3/4 cup brown sugar
@@ -31,7 +32,7 @@ for the default cow's milk, too.
   - 1 cup + 2 tablespoons milk
   - 3 cups rolled oats, any variety
 
-## Instructions:
+## Instructions
   - Melt butter.
   - Grease baking dish.
   - Beat eggs.
