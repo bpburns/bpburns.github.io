@@ -1,14 +1,26 @@
 ---
-layout: recipe
-title: Amish Baked Oatmeal (Single Batch)
-description: Tasty breakfast dish
-category: Breakfast
-equipment:
+date:
+  created: 2025-03-08
+  updated: 2025-03-08
+preptime: 10
+cooktime: 60
+servings: 6
+---
+
+# Amish Baked Oatmeal (Single Batch)
+
+A favorite of my kids' for many years, this recipe is foolproof and easily
+adaptable to what you have on hand. It is not sensitive to moisture or
+ingredient substitution. For example, you can substitute granulated sugar for
+brown sugar without an adverse effect. You can substitute an alternative milk
+for the default cow's milk, too.
+
+## Equipment
   - 1.5&nbsp;L / 6-cup baking dish
   - Measuring spoons
   - Whisk
   - Non-stick spray
-ingredients:
+## Ingredients:
   - 1/3 cup unsalted butter, melted
   - 2 large eggs
   - 3/4 cup brown sugar
@@ -18,9 +30,8 @@ ingredients:
   - 1/4 teaspoon salt
   - 1 cup + 2 tablespoons milk
   - 3 cups rolled oats, any variety
-cuisine: American
-date: 2023-12-01
-instructions:
+
+## Instructions:
   - Melt butter.
   - Grease baking dish.
   - Beat eggs.
@@ -30,14 +41,7 @@ instructions:
   - Refrigerate overnight.
   - Bake uncovered at 350&nbsp;&deg;F for 45-60 minutes, until set in middle.
   - Serve hot, warm, or cold with milk poured over.
-preptime: 10
-cooktime: 60
-servings: 6
----
 
-A favorite of my kids' for many years, this recipe is foolproof and easily
-adaptable to what you have on hand. It is not sensitive to moisture or
-ingredient substitution. For example, you can substitute granulated sugar for
-brown sugar without an adverse effect. You can substitute an alternative milk
-for the default cow's milk, too.
+
+
 

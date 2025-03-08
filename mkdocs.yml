@@ -80,3 +80,14 @@ markdown_extensions:
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_code_format
   - tables
+
+nav:
+  - Home: index.md
+  - Blog:
+    - blog/index.md
+  - Recipes:
+    - recipes/index.md
+    - Amish Baked Oatmeal:
+      - Single Batch: recipes/amish-baked-oatmeal.md
+      - Double Batch: recipes/amish-baked-oatmeal-double-batch.md
+  - About: about.md
